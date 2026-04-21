@@ -1,23 +1,25 @@
 export const colors = {
-  // Fondos y degradados
-  backgroundDark: '#0A1128',      // Azul muy oscuro del fondo
-  backgroundMedium: '#1E3A8A',    // Azul medio de las transiciones
-  
-  // Acentos y luces
-  electricBlue: '#00D4FF',        // Cian brillante de los efectos de luz
-  cyanGlow: 'rgba(0, 212, 255, 0.5)', 
-  
-  // Colores de resalte (Call to Action)
-  highlightYellow: '#F8E71C',     // Amarillo de "CONSULTA SIN CARGO"
-  actionGold: '#D4AF37',          // Dorado de los iconos de experiencia
-  
-  // Comunicación
-  whatsappGreen: '#25D366',       // Verde oficial de WhatsApp
-  
-  // Texto
-  textPrimary: '#FFFFFF',         // Blanco para títulos principales
-  textSecondary: '#E5E7EB',       // Gris claro para subtítulos
-  
-  // Variantes para tarjetas o secciones
-  overlayBlue: 'rgba(10, 17, 40, 0.8)'
+  // Base
+  backgroundDark: "#0A1628",
+  backgroundMedium: "#0F2040",
+  backgroundCard: "#111E33",
+
+  // Gold accent
+  gold: "#C9A84C",
+  goldLight: "#E8C96A",
+
+  // Text
+  textPrimary: "#F8F6F0",
+  textSecondary: "#8A9BB8",
+
+  // Semantic
+  whatsappGreen: "#25D366",
+  electricBlue: "#2563eb",
+  cyanGlow: "rgba(201,168,76,0.15)",
+  highlightYellow: "#C9A84C",
+};
+
+export const fonts = {
+  display: "'Playfair Display', serif",
+  body: "'DM Sans', sans-serif",
 };
